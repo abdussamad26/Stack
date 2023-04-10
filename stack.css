@@ -142,6 +142,7 @@ ul {
 @media (max-width : 767px) {
     .banner-img {
         width: 380px;
+        padding-top: 15%;
     }
     .testimonial-part {
         display: none;
@@ -151,7 +152,39 @@ ul {
         background-repeat: no-repeat;
         background-size: cover;
         min-width: 391px;
-        width: 15%;
         height: 650px;
+    }
+    .card {
+        width:100% !important;
+    }
+    .card-1 {
+        margin-bottom: 5% !important;
+    }
+    .card-2 {
+        margin-top: -5%;
+    }
+    .card-3 {
+        margin-top: -7%;
+    }
+    .address-list {
+        margin-left: -8%;
+    }
+    .get-col {
+        position: relative;
+        bottom: 20vw;
+    }
+    .get-text {
+        margin-left: 9%;
+    }
+    .quick-col {
+        position: relative;
+        bottom: 40vw;
+        margin-right: 80px  !important;
+    }
+    .quick-text {
+        margin-left: 9%;
+    }
+    .news-text {
+        margin-top: -60vw;
     }
 }
